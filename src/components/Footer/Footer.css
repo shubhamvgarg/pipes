@@ -1,0 +1,75 @@
+.footer {
+    background-color: #850014;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  .top-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ff1c40;
+  }
+  
+  .top-bar p {
+    margin: 0;
+  }
+  
+  .top-bar .email {
+    color: yellow;
+  }
+  
+  .quote-button {
+    background-color: #ff1c40;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin: 0px 0px 0px 70px;
+    cursor: pointer;
+}
+ 
+  .footer-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .footer-section, .contact-section, .social-icons {
+    flex: 1;
+    margin: 0 20px;
+  }
+  .contact-section, .social-icons{
+    margin: 55px 0px;
+  }
+  .contact-item{
+    color: white;
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons .icon {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 29px;
+  }
+
+  .footer-bottom {
+    padding-top: 10px;
+    border-top: 1px solid white;
+  }
+  
+  .footer-bottom a {
+    color: #ff1c40;
+    text-decoration: none;
+  }
+  
+  .footer-bottom a:hover {
+    text-decoration: underline;
+  }
+  
